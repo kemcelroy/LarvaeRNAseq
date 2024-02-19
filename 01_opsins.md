@@ -28,7 +28,7 @@ From table S2
 | _    Mizuhopecten   yessoensis   _   |     Pectinidae      |     Pyes        |     https://doi.org/10.1038/s41559-022-01898-6     |     828              |     1171.90           |     9/60.01          |
 | _    Pecten maximus   _              |     Pectinidae      |     Pmax        |     GCA_902652985.1   (xPecMax1.1)                 |     3983             |     918.31            |     10/44.82         |
 | _    Placopecten   magellanicus   _  |     Pectinidae      |     Pmag        |     https://doi.org/10.1038/s41559-022-01898-6     |     4054             |     1458.27           |     10/66.32         |
-| _    Ylistrum japonicum   _          |     Pectinidae      |     Ajap        |     https://doi.org/10.1038/s41559-022-01898-6     |     31               |     695.21            |     8/39.05          |
+
 
 ## BITACORA for de novo opsin discovery
 
