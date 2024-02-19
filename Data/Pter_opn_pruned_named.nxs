@@ -1,0 +1,236 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=134;
+	taxlabels
+	'Cang.RTC.OS'
+	'Cang.melatonin.OS'
+	'Cang.opn5.OS'
+	'Cang.opnGo.A.OS'
+	'Cang.opnGq-nc.A.OS'
+	'Cang.opnGq-nc.B.OS'
+	'Cang.opnGq.B.OS'
+	'Cang.opnGx.A.OS.1'
+	'Cang.opnGx.A.OS.2'
+	'Cang.opnGx.B1.OS'
+	'Cang.opnGx.B2.OS.1'
+	'Cang.opnGx.B2.OS.2'
+	'Cang.peropsin.OS'
+	'Cang.pseudopsin.OS'
+	'Cfar.RTC.PE'
+	'Cfar.melatonin.PE'
+	'Cfar.opn5.PE'
+	'Cfar.opnGo.A.PE'
+	'Cfar.opnGo.B.PE'
+	'Cfar.opnGq-nc.B.PE.1'
+	'Cfar.opnGq-nc.B.PE.2'
+	'Cfar.opnGq.A.PE.1'
+	'Cfar.opnGq.B.PE.1'
+	'Cfar.opnGq.B.PE.2'
+	'Cfar.opnGq.B.PE.3'
+	'Cfar.opnGx.A.PE.1'
+	'Cfar.opnGx.A.PE.2'
+	'Cfar.opnGx.B1.PE.1'
+	'Cfar.opnGx.B1.PE.2'
+	'Cfar.opnGx.B1.PE.3'
+	'Cfar.opnGx.B1.PE.4'
+	'Cfar.opnGx.B2.PE.1'
+	'Cfar.opnGx.B2.PE.2'
+	'Cfar.pseudopsin.PE'
+	'Cgig.RTC.OS'
+	'Cgig.melatonin.1BB.OS'
+	'Cgig.melatonin.OS'
+	'Cgig.opn5.OS'
+	'Cgig.opnGo.A.OS'
+	'Cgig.opnGq-nc.A.OS'
+	'Cgig.opnGq-nc.B.OS'
+	'Cgig.opnGq.B.OS'
+	'Cgig.opnGx.A.OS.1'
+	'Cgig.opnGx.A.OS.2'
+	'Cgig.opnGx.B1.OS'
+	'Cgig.opnGx.B2.OS.1'
+	'Cgig.opnGx.B2.OS.2'
+	'Cgig.peropsin.OS'
+	'Cgig.pseudopsin.OS'
+	'Medu.RTC.MY'
+	'Medu.opn5.MY.1'
+	'Medu.opn5.MY.2'
+	'Medu.opn5.MY.3'
+	'Medu.opn5.MY.4'
+	'Medu.opnGo.B.MY.1'
+	'Medu.opnGo.B.MY.2'
+	'Medu.opnGo.B.MY.3'
+	'Medu.opnGo.B.MY.4'
+	'Medu.opnGq-nc.B.MY'
+	'Medu.opnGq.B.MY.1'
+	'Medu.opnGq.B.MY.2'
+	'Medu.opnGq.B.MY.3'
+	'Medu.opnGx.A.MY.1'
+	'Medu.opnGx.A.MY.2a'
+	'Medu.opnGx.A.MY.2b'
+	'Medu.opnGx.B1.MY'
+	'Medu.opnGx.B2.MY.1'
+	'Medu.opnGx.B2.MY.2a'
+	'Medu.opnGx.B2.MY.2b'
+	'Medu.opnGx.B2.MY.3a'
+	'Medu.opnGx.B2.MY.3b'
+	'Medu.opnGx.B2.MY.3c'
+	'Medu.opnGx.B2.MY.3d'
+	'Medu.opnGx.B2.MY.3e'
+	'Medu.opnGx.B2.MY.3f'
+	'Medu.pseudopsin|CAG2213510.1.MY'
+	'Myco.RTC.MY'
+	'Myco.opn5.MY.1'
+	'Myco.opn5.MY.2'
+	'Myco.opn5.MY.3'
+	'Myco.opn5.MY.4'
+	'Myco.opnGo.B.MY.1'
+	'Myco.opnGo.B.MY.2'
+	'Myco.opnGo.B.MY.3'
+	'Myco.opnGo.B.MY.4'
+	'Myco.opnGq-nc.B.MY'
+	'Myco.opnGq.B.MY.1'
+	'Myco.opnGq.B.MY.2'
+	'Myco.opnGq.B.MY.3'
+	'Myco.opnGx.A.MY.1'
+	'Myco.opnGx.A.MY.2'
+	'Myco.opnGx.B1.MY'
+	'Myco.opnGx.B2.MY.3a'
+	'Myco.opnGx.B2.MY.3b'
+	'Myco.opnGx.B2.MY.3c'
+	'Myco.opnGx.B2.MY.3d'
+	'Pfuc.RTC.MA'
+	'Pfuc.melatonin.MA'
+	'Pfuc.opn5.MA'
+	'Pfuc.opnGo.A.MA.1'
+	'Pfuc.opnGo.A.MA.2a'
+	'Pfuc.opnGo.A.MA.2b'
+	'Pfuc.opnGo.B.MA'
+	'Pfuc.opnGq-nc.B.MA'
+	'Pfuc.opnGq.B.MA'
+	'Pfuc.opnGx.A.MA'
+	'Pfuc.opnGx.A1.MA.1a'
+	'Pfuc.opnGx.A1.MA.1b'
+	'Pfuc.opnGx.B1.MA'
+	'Pfuc.peropsin.MA'
+	'Pfuc.pseudopsin.MA'
+	'Placopsin_XP_002112437.1'
+	'Placopsin_XP_002113363.1'
+	'Pmax.RTC.PE'
+	'Pmax.melatonin.1BB.PE'
+	'Pmax.melatonin.PE'
+	'Pmax.opn5.PE'
+	'Pmax.opnGo.A.PE'
+	'Pmax.opnGo.B.PE'
+	'Pmax.opnGq-nc.B.PE.1'
+	'Pmax.opnGq-nc.B.PE.2'
+	'Pmax.opnGq.A.PE.1'
+	'Pmax.opnGq.B.PE.1'
+	'Pmax.opnGq.B.PE.2'
+	'Pmax.opnGq.B.PE.3'
+	'Pmax.opnGx.A.PE.1'
+	'Pmax.opnGx.A.PE.2'
+	'Pmax.opnGx.B1.PE.1'
+	'Pmax.opnGx.B1.PE.2'
+	'Pmax.opnGx.B1.PE.3'
+	'Pmax.opnGx.B1.PE.4'
+	'Pmax.opnGx.B2.PE.1'
+	'Pmax.opnGx.B2.PE.2'
+	'Pmax.pseudopsin|XP_033749045.1.PE'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((('Cfar.melatonin.PE':0.231592,('Pmax.melatonin.PE':2.0E-6,'Pmax.melatonin.1BB.PE':3.0E-6)[&ufboot=100]:0.155557)[&ufboot=100]:0.672428,('Pfuc.melatonin.MA':0.514339,('Cang.melatonin.OS':0.005116,('Cgig.melatonin.OS':1.0E-6,'Cgig.melatonin.1BB.OS':1.0E-6)[&ufboot=100]:0.009816)[&ufboot=98]:0.739307)[&ufboot=100]:0.490067)[&ufboot=96]:1.813765,((('Cang.pseudopsin.OS':1.0E-6,'Cgig.pseudopsin.OS':1.0E-6)[&ufboot=100]:0.50044,(('Pmax.pseudopsin|XP_033749045.1.PE':0.078466,'Cfar.pseudopsin.PE':0.112251)[&ufboot=100]:0.522869,('Medu.pseudopsin|CAG2213510.1.MY':0.996291,'Pfuc.pseudopsin.MA':0.903776)[&ufboot=94]:0.123725)[&ufboot=75]:0.122468)[&ufboot=100]:2.044704,(('Placopsin_XP_002113363.1':2.576101,'Placopsin_XP_002112437.1':2.22653)[&ufboot=100]:0.7754,(((('Cgig.opnGq-nc.A.OS':0.015238,'Cang.opnGq-nc.A.OS':0.018827)[&ufboot=100]:2.824401,(('Myco.opnGq-nc.B.MY':0.086569,'Medu.opnGq-nc.B.MY':0.135673)[&ufboot=100]:1.478193,(('Pfuc.opnGq-nc.B.MA':1.054549,('Cgig.opnGq-nc.B.OS':1.0E-6,'Cang.opnGq-nc.B.OS':0.008718)[&ufboot=100]:1.371767)[&ufboot=99]:0.215659,(('Pmax.opnGq-nc.B.PE.1':0.29854,'Cfar.opnGq-nc.B.PE.1':0.317345)[&ufboot=53]:0.592746,('Pmax.opnGq-nc.B.PE.2':0.66846,'Cfar.opnGq-nc.B.PE.2':0.549006)[&ufboot=100]:1.100936)[&ufboot=98]:0.948957)[&ufboot=99]:0.266807)[&ufboot=100]:0.399883)[&ufboot=100]:0.458561,(('Pmax.opnGq.A.PE.1':0.244468,'Cfar.opnGq.A.PE.1':0.178378)[&ufboot=100]:0.685356,((('Pmax.opnGq.B.PE.1':0.119607,'Cfar.opnGq.B.PE.1':0.122774)[&ufboot=60]:0.359794,(('Pmax.opnGq.B.PE.2':0.261133,'Cfar.opnGq.B.PE.2':0.046974)[&ufboot=100]:0.271639,('Pmax.opnGq.B.PE.3':0.096725,'Cfar.opnGq.B.PE.3':0.142666)[&ufboot=100]:0.311042)[&ufboot=100]:0.199088)[&ufboot=100]:0.413931,(('Pfuc.opnGq.B.MA':0.353831,('Cgig.opnGq.B.OS':0.002956,'Cang.opnGq.B.OS':0.004177)[&ufboot=100]:0.645639)[&ufboot=86]:0.092636,(('Myco.opnGq.B.MY.1':0.021068,'Medu.opnGq.B.MY.1':0.039477)[&ufboot=100]:0.579851,(('Myco.opnGq.B.MY.2':0.051987,'Medu.opnGq.B.MY.2':0.08616)[&ufboot=100]:0.613013,('Myco.opnGq.B.MY.3':0.05452,'Medu.opnGq.B.MY.3':0.069603)[&ufboot=100]:0.422176)[&ufboot=98]:0.108006)[&ufboot=100]:0.185727)[&ufboot=49]:0.060302)[&ufboot=84]:0.175762)[&ufboot=100]:0.739677)[&ufboot=100]:0.523241,(((('Pfuc.peropsin.MA':0.565393,('Cgig.peropsin.OS':0.021969,'Cang.peropsin.OS':2.0E-6)[&ufboot=97]:1.198224)[&ufboot=100]:1.527382,(('Pmax.RTC.PE':0.254591,'Cfar.RTC.PE':0.026678)[&ufboot=94]:1.17662,(('Myco.RTC.MY':0.02225,'Medu.RTC.MY':0.096247)[&ufboot=98]:1.669278,('Pfuc.RTC.MA':0.845257,('Cgig.RTC.OS':1.0E-6,'Cang.RTC.OS':0.007235)[&ufboot=100]:1.130477)[&ufboot=97]:0.286895)[&ufboot=99]:0.214651)[&ufboot=100]:2.983278)[&ufboot=100]:0.740912,(((('Pmax.opn5.PE':0.473946,'Cfar.opn5.PE':0.023636)[&ufboot=48]:1.020799,('Pfuc.opn5.MA':0.599262,('Cgig.opn5.OS':0.014752,'Cang.opn5.OS':1.0E-6)[&ufboot=100]:1.026446)[&ufboot=100]:0.682286)[&ufboot=99]:0.336522,(('Medu.opn5.MY.1':0.190951,'Myco.opn5.MY.1':0.087316)[&ufboot=98]:0.791137,(('Medu.opn5.MY.2':0.097283,'Myco.opn5.MY.2':0.021962)[&ufboot=98]:0.258459,(('Medu.opn5.MY.4':0.108846,'Myco.opn5.MY.4':0.088132)[&ufboot=100]:0.24591,('Myco.opn5.MY.3':0.173661,'Medu.opn5.MY.3':0.229683)[&ufboot=100]:0.57988)[&ufboot=97]:0.118221)[&ufboot=98]:0.433549)[&ufboot=100]:0.724622)[&ufboot=100]:1.731548,(('Pfuc.opnGo.A.MA.1':3.371812,(('Pmax.opnGo.A.PE':0.198533,'Cfar.opnGo.A.PE':0.725622)[&ufboot=94]:1.536851,(('Cgig.opnGo.A.OS':0.005325,'Cang.opnGo.A.OS':0.003375)[&ufboot=100]:1.701522,('Pfuc.opnGo.A.MA.2b':0.852722,'Pfuc.opnGo.A.MA.2a':1.075667)[&ufboot=96]:0.345349)[&ufboot=78]:0.729304)[&ufboot=100]:0.355596)[&ufboot=100]:0.676784,(('Pfuc.opnGo.B.MA':1.016642,('Pmax.opnGo.B.PE':0.468844,'Cfar.opnGo.B.PE':0.48968)[&ufboot=100]:0.655238)[&ufboot=97]:0.124436,((('Medu.opnGo.B.MY.4':0.133236,'Myco.opnGo.B.MY.4':0.027241)[&ufboot=94]:0.905981,('Medu.opnGo.B.MY.3':0.163476,'Myco.opnGo.B.MY.3':0.006939)[&ufboot=100]:0.447996)[&ufboot=98]:0.820477,(('Myco.opnGo.B.MY.1':0.067009,'Medu.opnGo.B.MY.1':0.195343)[&ufboot=100]:0.373564,('Medu.opnGo.B.MY.2':0.182387,'Myco.opnGo.B.MY.2':0.031878)[&ufboot=98]:0.269971)[&ufboot=100]:0.732725)[&ufboot=100]:0.584446)[&ufboot=100]:1.364574)[&ufboot=91]:0.196705)[&ufboot=96]:0.080644)[&ufboot=99]:0.229451,(('Pfuc.opnGx.A.MA':2.084343,(('Pmax.opnGx.A.PE.1':0.494228,'Cfar.opnGx.A.PE.1':0.620944)[&ufboot=82]:1.266923,((('Myco.opnGx.A.MY.1':0.070061,'Medu.opnGx.A.MY.1':0.064553)[&ufboot=100]:0.730762,('Medu.opnGx.A.MY.2a':0.561775,('Medu.opnGx.A.MY.2b':0.170754,'Myco.opnGx.A.MY.2':0.158664)[&ufboot=100]:0.77039)[&ufboot=99]:1.36183)[&ufboot=100]:0.366101,(('Pfuc.opnGx.A1.MA.1a':0.908368,'Pfuc.opnGx.A1.MA.1b':0.479558)[&ufboot=100]:0.535363,(('Pmax.opnGx.A.PE.2':0.260725,'Cfar.opnGx.A.PE.2':0.249674)[&ufboot=100]:0.988172,(('Cgig.opnGx.A.OS.1':1.0E-6,'Cang.opnGx.A.OS.1':0.00899)[&ufboot=100]:0.407478,('Cgig.opnGx.A.OS.2':0.016922,'Cang.opnGx.A.OS.2':0.008186)[&ufboot=100]:1.028683)[&ufboot=100]:0.774985)[&ufboot=66]:0.338326)[&ufboot=75]:0.099625)[&ufboot=82]:0.176127)[&ufboot=69]:0.540935)[&ufboot=97]:0.290836,(((('Medu.opnGx.B1.MY':0.57828,'Myco.opnGx.B1.MY':0.280753)[&ufboot=100]:2.135204,('Pfuc.opnGx.B1.MA':1.578243,('Cgig.opnGx.B1.OS':0.019422,'Cang.opnGx.B1.OS':0.017954)[&ufboot=100]:1.683994)[&ufboot=98]:0.230345)[&ufboot=99]:0.293104,(('Pmax.opnGx.B1.PE.1':0.354866,'Cfar.opnGx.B1.PE.1':0.077343)[&ufboot=90]:0.809039,(('Pmax.opnGx.B1.PE.2':0.831036,'Cfar.opnGx.B1.PE.2':0.453292)[&ufboot=100]:1.094,(('Pmax.opnGx.B1.PE.3':0.487665,'Cfar.opnGx.B1.PE.3':0.487993)[&ufboot=100]:0.387071,('Pmax.opnGx.B1.PE.4':0.217251,'Cfar.opnGx.B1.PE.4':0.193118)[&ufboot=99]:0.576384)[&ufboot=100]:1.179241)[&ufboot=100]:0.66963)[&ufboot=100]:0.404268)[&ufboot=99]:1.191556,(('Medu.opnGx.B2.MY.1':1.872704,(('Pmax.opnGx.B2.PE.1':0.515638,'Cfar.opnGx.B2.PE.1':0.643808)[&ufboot=100]:0.878187,('Pmax.opnGx.B2.PE.2':0.768833,'Cfar.opnGx.B2.PE.2':0.727789)[&ufboot=99]:1.159697)[&ufboot=100]:0.452364)[&ufboot=98]:0.283653,((('Cgig.opnGx.B2.OS.1':1.0E-6,'Cang.opnGx.B2.OS.1':1.0E-6)[&ufboot=100]:0.753014,('Cgig.opnGx.B2.OS.2':0.035211,'Cang.opnGx.B2.OS.2':0.011346)[&ufboot=100]:1.036219)[&ufboot=100]:1.689255,(('Medu.opnGx.B2.MY.2a':0.434679,'Medu.opnGx.B2.MY.2b':0.581343)[&ufboot=100]:1.458258,(('Medu.opnGx.B2.MY.3a':0.894142,'Medu.opnGx.B2.MY.3b':0.432381)[&ufboot=100]:0.343124,(('Myco.opnGx.B2.MY.3a':0.310026,'Medu.opnGx.B2.MY.3c':0.154032)[&ufboot=100]:0.303285,('Myco.opnGx.B2.MY.3b':0.507579,('Myco.opnGx.B2.MY.3c':0.53038,(('Medu.opnGx.B2.MY.3e':0.696567,'Medu.opnGx.B2.MY.3f':0.35565)[&ufboot=99]:0.137831,('Medu.opnGx.B2.MY.3d':0.331508,'Myco.opnGx.B2.MY.3d':0.379069)[&ufboot=52]:0.035185)[&ufboot=71]:0.098985)[&ufboot=100]:0.100374)[&ufboot=99]:0.123866)[&ufboot=100]:0.420724)[&ufboot=96]:0.933775)[&ufboot=100]:0.938125)[&ufboot=98]:0.515489)[&ufboot=72]:0.145424)[&ufboot=100]:0.244652)[&ufboot=100,!name="Xenopsin"]:0.418565)[&ufboot=98]:0.178521)[&ufboot=100]:0.797028)[&ufboot=98]:0.29189)[&ufboot=96]:1.813765);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=244;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="ufboot";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="ufboot";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=11;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=213861;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=12.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=2.0;
+	set scaleBar.scaleRange=1.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=11;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
